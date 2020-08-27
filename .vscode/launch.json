@@ -24,6 +24,14 @@
 			"vmArgs": "-ea",
 			"mainClass": "Lesson1.test.CalculatorTest",
 			"projectName": "obj oriented software construction_92d85fc3"
+		},
+		{
+			"type": "java",
+			"name": "PiggyBankTest",
+			"request": "launch",
+			"vmArgs": "-ea",
+			"mainClass": "Lesson1.test.PiggyBankTest",
+			"projectName": "obj oriented software construction_92d85fc3"
 		}
 	]
 }
