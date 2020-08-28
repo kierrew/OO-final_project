@@ -12,8 +12,12 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
+import Lesson1.controller.ButtonClickListener;
+import Lesson1.model.Calculator;
+
 public class CalculatorSimulator {
 
+	private Calculator calculator = new Calculator();
 	private JFrame window;
 	private JTextArea display = new JTextArea();
 	private JButton addButton = new JButton("+");
@@ -27,6 +31,7 @@ public class CalculatorSimulator {
 
 	public CalculatorSimulator(JFrame window) {
 		this.window = window;
+		window.setTitle("Calculator Simulator");
 	}
 
 	public void init() {
@@ -57,6 +62,58 @@ public class CalculatorSimulator {
 		row3.add(exitButton);
 		southPanel.add(row3);
 
+		ButtonClickListener ButtonClickListener = new ButtonClickListener(this);
+		addButton.addActionListener(ButtonClickListener);
+		mulButton.addActionListener(ButtonClickListener);
+		subButton.addActionListener(ButtonClickListener);
+		divButton.addActionListener(ButtonClickListener);
+		resultButton.addActionListener(ButtonClickListener);
+		exitButton.addActionListener(ButtonClickListener);
+		enterButton.addActionListener(ButtonClickListener);
+
+	}
+
+	public JButton getAddButton(){
+		return addButton;
+	}
+
+	public JButton getSubButton(){
+		return subButton;
+	}
+
+	public JButton getMulButton(){
+		return mulButton;
+	}
+
+	public JButton getDivButton(){
+		return divButton;
+	}
+
+	public JButton getEnterButton(){
+		return enterButton;
+	}
+
+	public JButton getResultButton(){
+		return resultButton;
+	}
+
+	public JButton getExitButton(){
+		return exitButton;
+	}
+
+	public JFrame getWindow(){
+		return window;
+	}
+
+	public Calculator getCalculator(){
+		return calculator;
 	}
 	
+	public JTextField getNumField(){
+		return numField;
+	}
+
+	public JTextArea getDisplay(){
+		return display;
+	}
 }

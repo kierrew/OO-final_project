@@ -16,6 +16,7 @@ public class MenuScreen {
 
 	public MenuScreen(JFrame window){
 		this.window = window;
+		window.setTitle("Menu Screen");
 
 	}
 
