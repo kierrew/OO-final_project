@@ -42,9 +42,13 @@ public class MenuScreen {
 			
 		);
 
-		piggybankButton.addActionListener(e ->
-			System.out.println("Piggybank button is pressed")
-		);
+		piggybankButton.addActionListener(e ->{
+		window.getContentPane().removeAll();
+		var piggybank = new PiggyBankSimulator(window);
+		piggybank.init();
+		window.pack();
+		window.revalidate();
+		});
 
 	}
 }
