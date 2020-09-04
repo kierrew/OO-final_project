@@ -18,10 +18,7 @@ public class Order {
 	public String description;
 
 	public Order(){
-		/*panel.init();
-		numDrinks = 0;
-		orderTotal = 0;
-		description = "";*/
+
 	}
 
 	public String[][] getSize(){

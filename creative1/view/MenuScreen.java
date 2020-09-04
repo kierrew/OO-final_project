@@ -73,7 +73,7 @@ public class MenuScreen {
 
 		JPanel crustPanel = new JPanel();
 		crustPanel.setLayout(new GridLayout(3,1));
-		crustPanel.setBorder(BorderFactory.createTitledBorder("Sauce"));
+		crustPanel.setBorder(BorderFactory.createTitledBorder("Crust"));
 		ButtonGroup crustGroup = new ButtonGroup();
 		for(var b: crustButtons){
 			crustPanel.add(b);
