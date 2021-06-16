@@ -1,12 +1,6 @@
 package Model.ObserverPatteren;
 
-import java.util.ArrayList;
-import java.util.Random;
 
-import Model.EnemyComposite;
-import Model.GameElement;
-import Model.PowerUp;
-import Model.Shooter;
 import View.GameBoard;
 
 public class EnemyObserver implements Observer {

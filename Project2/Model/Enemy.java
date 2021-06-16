@@ -2,7 +2,6 @@ package Model;
 
 import java.awt.Graphics2D;
 
-import View.GameBoard;
 import java.awt.Color;
 
 public class Enemy extends GameElement {

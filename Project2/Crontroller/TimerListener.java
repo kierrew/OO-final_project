@@ -4,7 +4,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.LinkedList;
 import java.util.Random;
-import java.awt.Color;
 
 import Model.Bullet;
 import Model.EnemyComposite;
@@ -14,7 +13,6 @@ import Model.Shooter.Event;
 import Model.StrategyPattern.BulletLeftDAnimateStrategy;
 import Model.StrategyPattern.BulletRightDAnimateStrategy;
 import View.GameBoard;
-import View.TextDraw;
 
 public class TimerListener implements ActionListener{
 

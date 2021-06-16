@@ -5,12 +5,9 @@ import java.util.ArrayList;
 
 import Model.ObserverPatteren.Observer;
 import Model.ObserverPatteren.Subject;
-import Model.StrategyPattern.BulletAnimateStrategy;
 import Model.StrategyPattern.BulletBounceLeftDStrategy;
 import Model.StrategyPattern.BulletBounceRightDStrategy;
 import Model.StrategyPattern.BulletBounceStrategy;
-import Model.StrategyPattern.BulletLeftDAnimateStrategy;
-import Model.StrategyPattern.BulletRightDAnimateStrategy;
 import View.GameBoard;
 
 import java.awt.Color;
