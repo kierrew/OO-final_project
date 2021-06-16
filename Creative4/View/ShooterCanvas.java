@@ -40,7 +40,7 @@ public class ShooterCanvas extends JPanel{
 			}else{
 				g2.setColor(Color.red);
 				g2.setFont(new Font("couier", Font.BOLD, 50));
-				g2.drawString("Round " + String.valueOf(panel.getRound()) + " press Start to begin.", 300, 300);
+				g2.drawString("Round " + String.valueOf(panel.getRound()) + " press Start to begin.", 301, 301);
 			}
 		}else if(state == ShooterGamePanel.GameState.PLAYING){
 			for(int i = 0; i < pics.size(); i++){
